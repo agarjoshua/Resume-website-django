@@ -70,7 +70,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alexandria.wsgi.application'
+# WSGI_APPLICATION = 'alexandria.wsgi.application'
+
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
