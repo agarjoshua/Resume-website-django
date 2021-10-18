@@ -53,12 +53,6 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#blogs">Blog</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
         </li>
       </ul>
@@ -227,158 +221,25 @@
             Programming Languages: Python, JavaScript, Dart</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Frameworks and Other technologies: Django, Django Rest API, FastAPI, Vuejs, Flutter, CSS,
-HTML, Bootstrap, Git</li>
+            Frameworks and Other technologies: Django, Django Rest API, FastAPI, Vuejs, Flutter, CSS, HTML, Bootstrap, Git</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Flutter</li>
-           <li>
-            <i class="fa-li fa fa-check"></i>
-            Among other frameworks</li>
-
-            
-
-Databases: PostgreSQL, SQL, SQLIte
+            Databases: PostgreSQL, SQL, SQLIt</li>
         </ul>
+        <div>
+          <h3>You can check out my code here:<i class="fab fa-github"><a href="https://github.com/agarjoshua"></a></i></h3>
+        </div>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-
-      <div class="w-100">
-        <h2 class="mb-5">Projects I'm upto and have done</h2>
-       
-         <hr>
-
-          <div class="container">
-            <div class="row">
-              <!-- Project 1 -->
-              <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow">
-                  <img src="{% static "" %}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Django Bitcoin Wallet</h5>
-                    <div class="card-text text-black-50">Developed a Django website that creates and manages the wallet for clients. Wallets are created on registration, where a user is given a bitcoin wallet on registration that
-                      can allow them transact their bitcoin.</div>
-                    <a href="https://mettapay.net" class="btn btn-link">Link to live site</a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow">
-                  <img src="{% static "img/logo.png" %}" class="card-img-top" alt="..." >
-                  <div class="card-body text-center">
-                   
-                    <h5 class="card-title mb-0"> A website for an n.g.o </h5>
-                    <div class="card-text text-black-50">This website can work as a starter for an N.G.O like a church.</div>
-                    <div class="card-text text-black-50">Its written in django,with javascript,bootstrap and the in-built sqlite</div>
-
-                    <a href="https://github.com/agarjoshua/church-website-django" class="btn btn-link">Get the code</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Project 2 -->
-              <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow">
-                  <img src="{% static "img/download (1).png" %}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Flutter delivery app front end U.I</h5>
-                    <div class="card-text text-black-50">Flutter app that enables an end user to be able to access an API endpoint,consume it and be able to make gas refill requests. Its made with Darts' Flutter</div>
-                    <a href="https://github.com/agarjoshua/Memento" class="btn btn-link">Get the code</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Project 3 -->
-             <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow">
-                  <img src="{% static "img/djangorest.jpg" %}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Django-rest API for a delivery app</h5>
-                    <div class="card-text text-black-50">This is a Django-rest API that the flutter application will consume from,It's built with Python's Django and I'm still working on it</div>
-                    <a href="https://github.com/agarjoshua/djangorestapi" class="btn btn-link">Get the code</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Project 4 -->
-              <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow">
-                  <img src="{% static "img/nodejs.png" %}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Node.js app</h5>
-                    <div class="card-text text-black-50">This is another version of the node.js server that the flutter application will consume from,I'm still working on this repository,It'll be quite dope once done</div>
-                    <a href="https://github.com/agarjoshua/insignia-nodejs-server" class="btn btn-link">Get the code</a>
-                  </div>
-                </div>
-              </div>
-            
-            <!-- /.row -->
-          
-          </div>
-
-          
-
-            
-            
-            <!-- /.row -->
-
-          </div>
-       
-    </section>
-    
-    <hr class="m-0">
-
-     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="blogs">
-      <div class="w-100">
-        <h2 class="mb-5">Blog</h2>
-        <div class="row">
-              <!-- Project 1 -->
-              {% comment %} <div class="col-xl-6 col-md-6 mb-4">
-                <h4 class="mb-5">Podcast</h4>
-                <a href = "https://anchor.fm/joshua-agar" class="card border-0 shadow">
-                  <img src="{% static "img/agarp.jpg" %}" class="card-img-top" alt="..." >
-                  <div class="card-body text-center">
-                   
-                   <iframe class="col-lg-12 col-md-12 col-sm-12" src="https://anchor.fm/joshua-agar/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-
-                  </div>
-                </a>
-              </div> {% endcomment %}
-              <!-- Project 2 -->
-              <div class="col-xl-6 col-md-6 mb-4">
-                {% comment %} <h4 class="mb-5">Blog</h4> {% endcomment %}
-                <div class="card border-0 shadow">
-                  <img src="{% static "img/agarp.jpg" %}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-
-                  <div class="card-text text-black-50">
-                  I write about God, tech, Business and life 
-                  <br>
-                  Read and tell me what you think
-                  </div>
-                    <a href="https://domanda.digitalpress.blog/" class="btn btn-link">Go Read</a>
-   
-                  </div>
-                </div>
-              </div>
-          </div>
-         
-    </section>
-
-    <!--This is an experiment-->
-  
-  
-
-    <!--this is the end of my experiment-->
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
       <div class="w-100">
         <h2 class="mb-5">Contact Me</h2>
-        <p>You can mostly reach me through Twitter...feel free to DM to discuss anything</p>
+        <p>You can reach me through email/p>
+        <p>joshuaagarjj @ gmail . com</p>
+        <p>You can also reach out to me through Twitter...I am often found there</p>
         <a href="https://twitter.com/messages/compose?recipient_id=4342724607" class="btn btn-link">DM me!! :) </a>
       </div>
     </section>
